@@ -1,0 +1,2 @@
+float32 position_error_norm
+float32 orientation_error_norm
