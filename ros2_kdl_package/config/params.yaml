@@ -14,10 +14,10 @@ ros2_kdl_node:
 
 ros2_kdl_vision:
   ros__parameters:
-    cmd_interface: "effort_o"
+    cmd_interface: "velocity"
     vel_prof: "cubic"
     trajectory: "linear"
-    task: "merge_o"
+    task: "positioning"
     Kpp: 1.2
     Kdd: 0.1
     Kp: 1.0
